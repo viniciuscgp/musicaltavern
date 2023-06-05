@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url('static/banner.png');
+    background-repeat: repeat-x;
+    text-align: center;
+    opacity: 0.8;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcffff;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-bottom: 35px;
+    background-color: rgb(10, 120, 216);
+    background-blend-mode: difference;
+    opacity: 0.7;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+main {
+    background-color: rgb(227, 227, 227);
+    padding: 10px;
+}
+
+#middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#middle div {
+    flex: 1 1 auto;
+    /* Isso permite que os itens 'flex' cresçam e encolham para preencher o espaço disponível */
+    margin: 5px;
+    /* Isso adiciona um pouco de espaço ao redor de cada imagem */
+    max-width: 400px;
+    /* Esta é a largura máxima que cada imagem pode ter */
+    width: 200;
+    height: 300;
+    /* Isso permite que a altura das imagens mude automaticamente para manter sua proporção original */
+    border: 2px solid rgb(210, 172, 68);
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    /* Torna a div um contêiner flexível */
+    flex-direction: column;
+    /* Define a orientação vertical */
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente */
+}
+
+#middle div audio {
+    width: 250px;
+    max-width: 100%;
+}
+
+#middle div a {
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 5px;
+    color: slategrey;
+}
+
+#middle div .imgcover {
+    max-width: 100%;
+}
+
+#middle div .linkimg {
+    max-width: 70%;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #3e8e41;
+}
+
+
+
+.search-input {
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+footer p {
+    margin: 0;
+    color: #0a0a0a;
+    opacity: 1;
+}
+
+footer a {
+    color: #090808;
+    text-decoration: none;
+    opacity: 1;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
