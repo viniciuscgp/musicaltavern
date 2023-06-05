@@ -1,14 +1,14 @@
-# MusicTavern
+# Musical Tavern
 
-MusicTavern é um projeto muito simples, que pode ajudar os aspirantes a desenvolvedores web a entender os fundamentos do HTML, CSS e JavaScript. Este é um projeto básico, que mostra que você não precisa de bibliotecas ou frameworks complexos para criar um site funcional e interativo.
+Musical Tavern é um projeto muito simples, que pode ajudar os aspirantes a desenvolvedores web a entender os fundamentos do HTML, CSS e JavaScript. Este é um projeto básico, que mostra que você não precisa de bibliotecas ou frameworks complexos para criar um site funcional e interativo, claro, desde que não seja um site muito complexo. Mas é muito bom pra aprendizado.
 
 ## 💻 Sobre o Projeto
 
-MusicTavern é um reprodutor de música simples, construído para interagir com a API do Deezer via RapidAPI. Este projeto é completamente construído com HTML, CSS e JavaScript básicos, criando uma experiência interativa e agradável para os usuários. Ele não está terminado ainda, falta paginação, e pretendo colocar a letra da musica também. 
+MusicTavern é um reprodutor de música simples, construído para interagir com a API do Deezer via RapidAPI. Este projeto é completamente construído com HTML, CSS e JavaScript básicos. Ele não está terminado ainda, falta paginação, letra da musica, etc...
 
 ### 🌐 HTML
 
-O HTML é o esqueleto do site, definindo a estrutura dos "cards" de música e outros elementos do site. 
+O HTML é o esqueleto do site, definindo a estrutura dos "cards" de música e outros elementos do site. Tentei fazer o mais semântico possível para que melhore ao máximo a acessibilidade.
 
 ### 🎨 CSS
 
@@ -20,7 +20,7 @@ O JavaScript é o cérebro do site. Ele adiciona interatividade, permitindo a pe
 
 ## 🚀 Como usar
 
-Para começar a usar o MusicTavern, basta abrir o site em um navegador. Explore o site, procure suas músicas etc.. Basta digitar na pesquisa, a API do Deezer faz o resto...
+Para começar a usar o Musical Tavern, basta abrir o site em um navegador. Explore o site, procure suas músicas etc.. Basta digitar na pesquisa, a API do Deezer faz o resto...
 
 ## 🤝 Contribuição
 
@@ -32,4 +32,4 @@ Este projeto está licenciado sob a licença MIT.
 
 ## 🏁 Conclusão
 
-MusicTavern é um projeto simples, que mostra o que dá pra fazer algumas coisas bem legais com uma compreensão básica do HTML, CSS e JavaScript. É um recurso que pode ajudar aqueles que estão começando sua jornada no desenvolvimento web.
+Musical Tavern é um projeto simples, que mostra o que dá pra fazer algumas coisas bem legais com uma compreensão básica do HTML, CSS e JavaScript. É um recurso que pode ajudar aqueles que estão começando sua jornada no desenvolvimento web.
