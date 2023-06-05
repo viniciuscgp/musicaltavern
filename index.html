@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MusicTavern: Descubra e ouça suas músicas favoritas! Pesquise por artistas, músicas e álbuns.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
 <body>
@@ -19,15 +25,14 @@
     <!-- Aqui vamos fazer a pesquisa -->
     <form>
         <label for="pesquisa">Artista/música/album ?</label>
-        <input id="pesquisa" class="search-input" type="text" value="Roberto Carlos">
+        <input id="pesquisa" class="search-input" type="text" placeholder="Ex. Roberto Carlos ou Detalhes">
         <button id="btn_pesquisar" class="button">pesquisar</button>
     </form>
 
     <!-- Aqui vamos colocar os cards com as músicas obtidas via API.-->
     <main>
-        <section id="middle">
-
-        </section>
+        <article id="middle">
+        </article>
     </main>
 
     <!-- Nosso rodape -->
